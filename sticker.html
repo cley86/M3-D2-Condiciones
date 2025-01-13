@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seleccionar Stickers</title>
+    <link rel="stylesheet" href="./assets/css/stickers.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="./index.html" class="nav-link">Home</a>
+      <a href="./sticker.html" class="nav-link">Sticker</a>
+      <a href="./password.html" class="nav-link">Password</a>
+    </nav>
+    <div class="container">
+      <div class="sticker">
+        <img src="https://via.placeholder.com/100" alt="Sticker 1" />
+        <input
+          type="number"
+          id="sticker1"
+          placeholder="Cantidad"
+          min="0"
+          max="10"
+        />
+      </div>
+      <div class="sticker">
+        <img src="https://via.placeholder.com/100" alt="Sticker 2" />
+        <input
+          type="number"
+          id="sticker2"
+          placeholder="Cantidad"
+          min="0"
+          max="10"
+        />
+      </div>
+      <div class="sticker">
+        <img src="https://via.placeholder.com/100" alt="Sticker 3" />
+        <input
+          type="number"
+          id="sticker3"
+          placeholder="Cantidad"
+          min="0"
+          max="10"
+        />
+      </div>
+      <button id="calcular">Calcular</button>
+      <p id="resultado"></p>
+    </div>
+
+    <script src="./assets/js/stickers.js"></script>
+  </body>
+</html>

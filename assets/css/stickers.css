@@ -1,0 +1,38 @@
+/* Estilos para la navbar */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #f0a500;
+  }
+
+  .sticker {
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
